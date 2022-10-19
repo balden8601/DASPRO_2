@@ -1,0 +1,23 @@
+program tugas2DP6;
+uses crt;
+{variabel tipe char, karena hanya satu karakter inputan}
+var
+iya:char;
+
+{mulai program}
+begin
+clrscr;
+     {inputan huruf/character user}
+         write('Masukkan Huruf: ');
+         readln(iya);
+     {case atau kasus yang ingin diselesaikan}
+       case iya of
+        'a','i','u','e','o':writeln('Huruf Vokal');
+       else
+         writeln('Huruf Konsonan');
+       end;
+     {selesai kasus/masalah}
+  readln;
+  readln;
+end.
+{selesai program}
